@@ -36,7 +36,7 @@ one example in .xml file:
 
 image:
 
-![image](https://github.com/shishishu/anti-crawl-chinese-fontlib/blob/master/images/de.png)
+![image](https://github.com/shishishu/anti-crawl-fontlib-img/blob/master/images/de.png)
 
 - Generate image based on contour info
 - Recognize character via ocr method
@@ -57,16 +57,16 @@ python main_chunk.py
     - It could **speed up by 3x** when 8 chars (chunk_size = 8) are recognized compared to 1 (chunk_size = 1) singly.
 - Multiprocessing pool is applied to accelerate further
 
-See live demo in [woff_text_image_char_flow.ipynb](https://github.com/shishishu/anti-crawl-chinese-fontlib/blob/master/woff_text_image_char_flow.ipynb)
+See live demo in [woff_text_image_char_flow.ipynb](https://github.com/shishishu/anti-crawl-fontlib-img/blob/master/woff_text_image_char_flow.ipynb)
 
 
 Method | 1 | 2 | 3
 ---|---|---|---
-Example 1 | ![image](https://github.com/shishishu/anti-crawl-chinese-fontlib/blob/master/images/unie055_m1.png)|
+Example 1 | ![image](https://github.com/shishishu/anti-crawl-fontlib-img/blob/master/images/unie055_m1.png)|
 Prediction | Correct
-Example 2 | ![image](https://github.com/shishishu/anti-crawl-chinese-fontlib/blob/master/images/unie60f_m1.png)|![image](https://github.com/shishishu/anti-crawl-chinese-fontlib/blob/master/images/unie60f_m2.png)
+Example 2 | ![image](https://github.com/shishishu/anti-crawl-fontlib-img/blob/master/images/unie60f_m1.png)|![image](https://github.com/shishishu/anti-crawl-fontlib-img/blob/master/images/unie60f_m2.png)
 Prediction | Wrong | Correct
-Example 3 |![image](https://github.com/shishishu/anti-crawl-chinese-fontlib/blob/master/images/unie3e1_m1.png)|![image](https://github.com/shishishu/anti-crawl-chinese-fontlib/blob/master/images/unie3e1_m2.png)|![image](https://github.com/shishishu/anti-crawl-chinese-fontlib/blob/master/images/unie3e1_m3.png)
+Example 3 |![image](https://github.com/shishishu/anti-crawl-fontlib-img/blob/master/images/unie3e1_m1.png)|![image](https://github.com/shishishu/anti-crawl-fontlib-img/blob/master/images/unie3e1_m2.png)|![image](https://github.com/shishishu/anti-crawl-fontlib-img/blob/master/images/unie3e1_m3.png)
 Prediction | Wrong | Wrong | Correct
 
 #### Results:
